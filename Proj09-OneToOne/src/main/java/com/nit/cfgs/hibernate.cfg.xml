@@ -21,7 +21,7 @@
 		<property name="hibernate.format_sql">true</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
 
-		<mapping resource="com/nit/entity/User.hbm.xml" />
-		<mapping resource="com/nit/entity/Phones.hbm.xml" />
+		<mapping resource="com/nit/entity/LibMembership.hbm.xml" />
+		<mapping resource="com/nit/entity/Student.hbm.xml" />
 	</session-factory>
 </hibernate-configuration>
